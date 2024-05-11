@@ -25,26 +25,24 @@
             </li>
         </ul>
     </nav>
-    <p>
-        <details>
-            <summary><h4>Místo narození:</h4></summary>
-            <h1>Jablonec nad Nisou</h1>
-        </details>
-        <figure><img src="../images/preview.jpeg" alt="Jablonec" width="500">
-        <figcaption><h3>Toto je Jablonec</h3></figcaption>
-        </figure>
-        <br>
-        <br>
-        <br>
-        <details>
-            <summary><h4>Trvalé bydliště:</h4></summary>
-           <h1> Rychnov u Jablonce n. N.</h1>
-        </details>
-        <figure>
-            <img src="../images/nUiHUD.jpeg" alt="Rychnov">
-            <figcaption><h3>A toto je Rychnov</h3></figcaption>
-        </figure>
-    </p>
+    <div class="container-fluid row">
+        <div class="card col-12">
+            <img src="../images/preview.jpeg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Jablonec nad Nisou</h5>
+              <p class="card-text">Místo narození</p>
+              <a href="https://www.mestojablonec.cz/" class="btn btn-primary justify-self-center">Město Jablonec</a>
+            </div>
+        </div>
+        <div class="card col-12">
+            <img src="../images/nUiHUD.jpeg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title">Rychnov u Jablonce n. N.</h5>
+              <p class="card-text">Trvalé bydliště</p>
+              <a href="https://www.rychnovjbc.cz/" class="btn btn-primary">Město Rychnov</a>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
